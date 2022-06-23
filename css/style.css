@@ -1,2 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Roboto+Slab:wght@100&display=swap');
+
+header,nav,footer {
+    width: 100px;
+    height: 55%;
+    margin: px25 auto;
+    font-size: 75px;
+    
+    background-size: 75% ;    
+   
+
+.main {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 15px;
+}
+.main div {
+    height: 100%;
+    width: 66%;
+    float: left;
+}
+section, article {
+    width: 100%;
+    height: 45%;
+}
+section {
+    margin-bottom: 15px;
+}
+aside{
+    padding-bottom: 15px;
+    float: right;
+    width: 33%;
+    height: 90%;
+}
+
+ img {
+    float: left;
+
+}
+
+
+nav {
+    list-style-type: none;
+    background-color: rosybrown;
+    font-family:"Fascinate", serif;
+    font-size: xx-large;
+    display: inline;
+    text-align: center;
+}
+section {
+
+}
+body {
+    background-image: url(/img/);
+}
+ul {
+    list-style-type:none;
+}
+
+li a:visited {
+    color: rgb(24, 14, 11);
+   border-radius: 25px;
+}
+li a:hover {
+    color: blueviolet;
+    }
+    
+footer {
+     padding-top: 50px;
+   
+}
+    
