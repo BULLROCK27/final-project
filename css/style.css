@@ -9,7 +9,7 @@ header,nav,footer {
     font-size: 75px;
     
     background-size: 75% ;    
-   
+}
 
 .main {
     width: 100%;
@@ -39,6 +39,9 @@ aside{
     float: left;
 
 }
+label,input,textarea {
+    display:block;
+}
 
 
 nav {
@@ -49,9 +52,8 @@ nav {
     display: inline;
     text-align: center;
 }
-section {
 
-}
+aside 
 body {
     background-image: url(/img/);
 }
