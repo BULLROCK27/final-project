@@ -78,3 +78,90 @@ iframe{
   height: 500px;
   filter: invert (100%);
 }
+.hero {
+  position: relative;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-content{
+  position: relative;
+  font-family:c'Times New Roman', Times, serif ;
+   color: black;
+   text-align: center;
+   margin: 0.629rem;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(206, 26, 26, 0.5), rgba(39, 209, 39, 0.5));
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+section {
+  margin-bottom: 15px;
+}
+aside{
+  padding-bottom: 15px;
+  float: right;
+  width: 33%;
+  height: 50%;
+}
+
+img {
+  float: left;
+
+}
+label,input,textarea {
+  display:block;
+}
+
+
+nav {
+  list-style-type: none;
+  background-color: rosybrown;
+  font-family:"Fascinate", serif;
+  font-size: xx-large;
+  display: inline;
+  text-align: center;
+  border-radius:450px ;
+
+}
+
+aside 
+body {
+  background-image: url(/img/);
+}
+ul {
+  list-style-type:none;
+}
+
+li a:visited {
+  color: rgb(24, 14, 11);
+ border-radius: 25px;
+}
+li a:hover {
+  color: blueviolet;
+  }
+  br   
+  #social-fb:hover {
+      color: #3B5998;
+  }
+  #social-tw:hover {
+      color: #4099FF;
+  }
+  #social-gp:hover {
+      color: #d34836;
+  }
+  #social-em:hover {
+      color: #f39c12;
+  }
+ footer{
+  width: 150px;
+  height: 250px;
+  
+ }
