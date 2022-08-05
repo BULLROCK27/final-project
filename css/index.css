@@ -89,4 +89,137 @@ li a:hover {
     height: 250px;
     
    }
+   @media screen and (max-width: 569px) {
+
+    .direct-contact-container, .form-wrapper {
+      float: none;
+      margin: 0 auto;
+    }  
+    .form-control, textarea {
+      
+      margin: 0 auto;
+    }
    
+    
+    .name, .email, textarea {
+      width: 280px;
+    } 
+    
+    .direct-contact-container {
+      margin-top: 60px;
+      max-width: 280px;
+    }  
+    .social-media-list {
+      left: 0;
+    }
+    .social-media-list li {
+      height: 55px;
+      width: 55px;
+      line-height: 55px;
+      font-size: 2rem;
+    }
+    .social-media-list li:after {
+      width: 55px;
+      height: 55px;
+      line-height: 55px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 410px) {
+    .send-button {
+      width: 99%;
+    }
+  }
+  @media only screen and (max-width:731px)
+{
+    #projects
+    {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (min-width:732px) and (max-width:1092px)
+{
+    #projects
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+#projects a
+{
+    text-decoration: none;
+}
+
+
+.project
+{
+    border-radius: 2px;
+    overflow:hidden;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.4);
+    height: 100%;
+}
+
+.project img
+{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.project p
+{
+    font-family:Poppins;
+    text-transform: capitalize;
+    text-align: center;
+    background-color:var(--gray);
+    padding: 20px;
+    color: var(--white);
+    font-size: 20px;
+}
+
+.project p span.tag
+{
+    color: transparent;
+    transition: all 0.2s linear;
+}
+
+#projects a:hover span.tag
+{
+    color: #ff7f50;
+}
+
+#work #show_more
+{
+    padding: 10px 22px;
+    font-family: Poppins;
+    font-size: 20px;
+    border-radius: 2px;
+    margin-top: 60px;
+    background-color: var(--gray);
+    color: var(--white);
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+#work #show_more:hover
+{
+    background-color: var(--red);
+}
+
+#work #show_more i
+{
+    transition: all 0.3s linear;
+    margin-left: 3px;
+}
+
+#work #show_more:hover i
+{
+    transform: translateX(5px);
+}
+
+  
